@@ -1,0 +1,46 @@
+<main role="main" class="flex-shrink-0">
+    <div class="jumbotron">
+        <div class="container">
+        <h1 class="display-3">
+            {% if email %}
+                欢迎你，好兄弟  {{email}}
+            {% else %}
+                你吃怕是还没登录噢
+            {% endif %}
+        </h1>
+        <p>这里是小游戏的导航页，现在暂时还没有啥好玩的游戏，唯一的2048也还在开发中。。。。。。。。</p>
+        </div>
+    </div>
+    <div class="container card-group">
+        <div class="row">
+            <div class="col-md-4 card">
+                <div class="card-body">
+                    <h5>2048小游戏（勉强能冲）</h5>
+                    <p>2048都没玩过的话可以直接活埋了。</p>
+                </div>
+                <div class="card-footer">
+                    <p><a class="btn btn-primary" href="/2048/" role="button">马上开冲 &raquo;</a></p>
+                </div>
+            </div>
+            <div class="col-md-4 card">
+                <div class="card-body">
+                    <h5>待补充</h5>
+                    <p>🐕日的，又不帮忙说尼玛呢？</p>
+                    
+                </div>
+                <div class="card-footer">
+                    <p><a class="btn btn-secondary" href="#" role="button">马上开冲 &raquo;</a></p>
+                </div>
+            </div>
+            <div class="col-md-4 card">
+                <div class="card-body">
+                    <h5>待补充</h5>
+                    <p>🐕日的，又不帮忙说尼玛呢？</p>
+                </div>
+                <div class="card-footer">
+                    <p><a class="btn btn-secondary" href="#" role="button">马上开冲 &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
