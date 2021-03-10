@@ -43,5 +43,10 @@ def game_2048():
     return render_template('index.html', template="2048.html", title="2048", email=session['email'])
 
 
+@app.route('/FlappyBird/')
+def game_flappybird():
+    return render_template('index.html', template="FlappyBird.html", title="FlappyBird", email=session['email'])
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8888, debug=True)
